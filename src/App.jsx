@@ -82,48 +82,53 @@ function App() {
             <h3 className='text-3xl py-1 font-semibold dark:text-gray-100'>My Skills</h3>
             <div className='text-6xl pt-4'>
               <div className='flex  justify-start gap-14 py-3 text-gray-600 cursor-pointer dark:text-gray-100'>
-                <div className='flex-col justify-center'>
-                  <FaHtml5 />
-                  <p className='text-sm font-semibold'>HTML5</p>
-                </div>
-                <div>
+                <div className='w-12 flex flex-col items-center'>
+
                   <FaReact />
-                  <p className="text-sm font-semibold">React</p>
+                  <p className='text-sm font-semibold'>React</p>
                 </div>
-                <div>
-                  <FaFigma />
-                  <p className="text-sm font-semibold">Figma</p>
-                </div>
-
-              </div>
-              <div className='flex text-5xl justify-start gap-14 py-1 text-gray-600 cursor-pointer dark:text-gray-100'>
-                <div className='flex-col justify-center'>
-                  <SiCss3 />
-                  <p className="text-sm font-semibold">CSS</p>
-                </div>
-                <div>
-                  <SiCanva />
-                  <p className="text-sm font-semibold">Canva</p>
-
-                </div>
-                <div>
-                  <SiAdobephotoshop />
-                  <p className="text-sm font-semibold">PhotoShop</p>
-                </div>
-
-              </div>
-              <div className='flex text-5xl justify-start gap-14 py-1 text-gray-600 cursor-pointer dark:text-gray-100'>
-                <div>
-                  <SiJavascript />
-                  <p className="text-sm font-semibold">JavaScript</p>
-                </div>
-                <div>
+                <div className='w-12 flex flex-col items-center'>
                   <SiNextdotjs />
                   <p className="text-sm font-semibold">Next Js</p>
                 </div>
-                <div>
+                <div className='w-12 flex flex-col items-center'>
+                  <SiJavascript />
+                  <p className="text-sm font-semibold">JavaScript</p>
+                </div>
+
+              </div>
+              <div className='flex text-5xl justify-start gap-14 grid-cols-4 py-1 text-gray-600 cursor-pointer dark:text-gray-100'>
+                <div className='w-12 flex flex-col items-center'>
+
+                  <FaHtml5 />
+                  <p className="text-sm font-semibold">HTML</p>
+                </div>
+                <div className='w-12 flex flex-col items-center'>
+                  <SiCss3 />
+                  <p className="text-sm font-semibold">CSS</p>
+
+                </div>
+                <div className='w-12 flex flex-col items-center'>
                   <SiTailwindcss />
+
                   <p className="text-sm font-semibold">Tailwind</p>
+                </div>
+
+              </div>
+              <div className='flex text-5xl justify-start gap-14 py-1 text-gray-600 cursor-pointer dark:text-gray-100'>
+                <div className='w-12 flex flex-col items-center'>
+                  <FaFigma />
+
+                  <p className="text-sm font-semibold">Figma</p>
+                </div>
+                <div className='w-12 flex flex-col items-center'>
+                  <SiCanva />
+
+                  <p className="text-sm font-semibold">Canva</p>
+                </div>
+                <div className='w-12 flex flex-col items-center'>
+                  <SiAdobephotoshop />
+                  <p className="text-sm font-semibold">Photoshop</p>
                 </div>
 
               </div>

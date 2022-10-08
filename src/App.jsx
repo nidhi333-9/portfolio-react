@@ -52,7 +52,7 @@ function App() {
             </div>
 
             <div className='relative mx-auto sm:w-72 mt-10' >
-              <img className='image-nidhi rounded-lg hover:animate-[wiggle_1s_ease-in-out_infinite]' src={tnidhi} alt="nidhi" />
+              <img className='image-nidhi rounded-lg animate-[wiggle_1s_ease-in-out_infinite]' src={tnidhi} alt="nidhi" />
             </div>
           </div>
         </section>

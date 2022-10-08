@@ -28,9 +28,9 @@ function App() {
               </li>
             </ul>
           </nav>
-          <div className='sm:flex mt-8 md:mt-16'>
+          <div className='sm:flex mt-8  md:mt-28'>
             <div className='text-center  sm:text-left'>
-              <div className='py-10 '>
+              <div className='pt-10 '>
                 <h2 className='text-3xl md:text-5xl py-2 text-gray-800 dark:text-gray-300 font-medium'>Hey 👋, I am</h2>
                 <h2 className='text-4xl md:text-6xl py-2 text-teal-600 font-medium'>Nidhi Kumari</h2>
                 <h3 className='text-2xl py-2 font-semibold dark:text-gray-100'>Developer & Designer</h3>
@@ -58,7 +58,7 @@ function App() {
         </section>
 
         <section>
-          <div className='mt-10'>
+          <div className=''>
             <h3 className='text-3xl py-1 font-semibold dark:text-gray-100'>My Projects</h3>
             <div className="projects">
               <Projects />

@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 
 const Result = () => {
     return (
-        <p>Your message has been succesfully sent. I will contact with you soon.</p>
+        <p className="text-gray-800 dark:text-gray-300">Your message has been succesfully sent. I will contact with you soon.</p>
     )
 }
 export default function Contact() {

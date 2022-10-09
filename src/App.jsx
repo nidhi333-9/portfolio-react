@@ -16,7 +16,7 @@ function App() {
 
       <main className='bg-white pb-10 px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
         <section className='min-h-screen'>
-          <nav className='py-10 mb-5 sm:mb-12 flex justify-between'>
+          <nav className='py-6 mt-7 sm:mb-12 flex justify-between'>
 
             <h1 className='text-xl font-burtons uppercase dark:text-white'>TechyNidhi</h1>
             <ul className='flex items-center'>
@@ -28,13 +28,13 @@ function App() {
               </li>
             </ul>
           </nav>
-          <div className='sm:flex mt-8  md:mt-28'>
+          <div className='sm:flex mt-4  md:mt-16'>
             <div className='text-center  sm:text-left'>
               <div className='pt-10 '>
-                <h2 className='text-3xl md:text-5xl py-2 text-gray-800 dark:text-gray-300 font-medium'>Hey 👋, I am</h2>
+                <h2 className='text-3xl md:text-5xl py-2 text-gray-800 dark:text-gray-300 font-medium'>Hey <span className='animate-[wiggle_1s_ease-in-out_infinite]'>👋</span>, I am</h2>
                 <h2 className='text-4xl md:text-6xl py-2 text-teal-600 font-medium'>Nidhi Kumari</h2>
                 <h3 className='text-2xl py-2 font-semibold dark:text-gray-100'>Developer & Designer</h3>
-                <p className='font-medium py-3 leading-8 text-gray-800 dark:text-gray-300'>Freelancer providing services for programming and development needs. Join me down below and let&aposs get cracking!</p>
+                <p className='font-medium py-3 leading-8 text-gray-800 dark:text-gray-300'>A Freelancer <span className='text-teal-600 underline'>Frontend Developer</span> specialize in <span className='font-bold'>ReactJs</span> & <span className='font-bold'>NextJs</span>. Join me down below and let's get cracking!</p>
               </div>
               <div className='flex text-5xl justify-center sm:justify-start gap-14 py-1 text-gray-600 cursor-pointer  dark:text-gray-100'>
                 <a className='hover:text-teal-600' href='https://twitter.com/techy_nidhi' target="_blank" rel="noreferrer">
@@ -58,7 +58,7 @@ function App() {
         </section>
 
         <section>
-          <div className=''>
+          <div className='mt-10'>
             <h3 className='text-3xl py-1 font-semibold dark:text-gray-100'>My Projects</h3>
             <div className="projects">
               <Projects />
